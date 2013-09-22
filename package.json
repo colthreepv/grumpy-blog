@@ -1,0 +1,15 @@
+{
+  "name": "grumpy-blog",
+  "version": "2.2.0",
+  "dependencies": {},
+  "description": "My personal blog, made of pure grumpyness",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrgamer/grumpy-blog.git"
+  },
+  "author": "mrgamer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrgamer/grumpy-blog/issues"
+  }
+}

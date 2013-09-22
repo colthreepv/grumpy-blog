@@ -1,0 +1,114 @@
+# Hexo Configuration
+## Docs: http://zespia.tw/hexo/docs/configure.html
+## Source: https://github.com/tommy351/hexo/
+
+# Site
+title: Grumpy Dev Blog
+subtitle: a developer that went full grumpyness
+description:
+author: mrgamer
+email: mister.gamer@gmail.com
+language: English
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.col3.me
+root: /
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+auto_spacing: false # Add spaces between asian characters and western characters
+titlecase: true # Transform title into titlecase
+external_link: true # Open external links in new tab
+max_open_file: 100
+multi_thread: true
+filename_case: 0
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 2
+category: 2
+tag: 2
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+logger: false
+logger_format:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: D MMM YYYY
+time_format: H:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 0
+pagination_dir: page
+
+# Disqus
+disqus_shortname: col3me
+
+# Extensions
+## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
+## Themes: https://github.com/tommy351/hexo/wiki/Themes
+theme: persona-dark
+exclude_generator:
+
+# Custom memoir options
+# menu:
+#   Home: /
+#   Archives: /archives
+
+# fancybox: true
+# twitter:
+# google_analytics: UA-42587136-2
+# github: https://github.com/mrgamer
+
+# Custom phase options
+# menu:
+#   Home: /
+#   Archives: /archives
+
+# addthis:
+#   enable: false
+#   pubid:
+#   facebook: true
+#   twitter: true
+#   google: true
+#   pinterest: true
+
+# facebook:
+# google_plus:
+# twitter:
+# github: https://github.com/mrgamer
+
+# fancybox: true
+# google_analytics: UA-42587136-2
+# rss: false
+
+# Deployment
+## Docs: http://zespia.tw/hexo/docs/deploy.html
+deploy:
+  type:
