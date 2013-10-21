@@ -1,0 +1,4 @@
+[submodule "themes/persona-dark"]
+	path = themes/persona-dark
+	url = git@github.com:mrgamer/hexo-persona-dark.git
+
