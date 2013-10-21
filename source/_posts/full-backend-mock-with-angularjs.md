@@ -3,11 +3,16 @@ date: 2013-10-19 15:35:42
 tags: angularjs, mock, backend, javascript, html5, plunkr, gist
 ---
 
-Many times when developing a multi-layered web application you had to wait for the backend APIs or for the database to work.. or for _something else_, in order to show your work.  
+If you ever developed a multi-layered web application, you *might* had to wait for backend to be in line with your client application, or some sysadmin to stop slacking... or _anything else, really_.  
+While waiting for someone or something to work you might have lost people interest, or have missed a client's demonstration...fear not!  
 If you are using AngularJS, the good news is that you have a workaround to make things _appear_ to work :)
 
 ### ngMockE2E
-First thing first, the module to simulate a true backend is [ngMockE2E][ngmocke2e] and **not** [ngMock][ngmock].  
+First thing, you will need to include [ngMockE2E][ngmocke2e] module in your application.  
+Since the Angular's modularized nature you can include a specific _mock_ module in your application, and when the backend is ready to work, just remove the
+module inclusion, it will work with your _true backend_ with no additional coding!
+
+NOTE: the module to use for mocking is [ngMockE2E][ngmocke2e] **not** [ngMock][ngmock].  
 The former only mocks the `$httpBackend` service, and auto-responds to requests, that's exactly why we want to use it!
 
 A little example about how it works:
@@ -39,7 +44,7 @@ Possibilities here are vast, randomize timeout, simulate packet drops, authentic
 
 [plunker live demo with random delay][plunker-step2]
 
-I hope some other hackers love this flexibility as much as i do, happy coding!
+I hope some hackers love this flexibility as much as i do, happy coding!
 
 [ngmocke2e]: http://docs.angularjs.org/api/ngMockE2E.$httpBackend
 [ngmock]: http://docs.angularjs.org/api/ngMock.$httpBackend
@@ -53,4 +58,4 @@ I hope some other hackers love this flexibility as much as i do, happy coding!
 
 [endlesslink]: http://endlessindirection.wordpress.com/2013/05/18/angularjs-delay-response-from-httpbackend/
 
-[plunker-step2]: http://
+[plunker-step2]: http://plnkr.co/edit/1FzwgQ?p=preview
