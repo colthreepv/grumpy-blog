@@ -76,6 +76,10 @@ disqus_shortname: col3me
 theme: persona-dark
 exclude_generator:
 
+# Plugins
+plugins:
+- hexo-generator-sitemap
+
 # Custom memoir options
 # menu:
 #   Home: /

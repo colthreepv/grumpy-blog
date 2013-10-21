@@ -1,7 +1,9 @@
 {
   "name": "grumpy-blog",
   "version": "2.2.1",
-  "dependencies": {},
+  "dependencies": {
+    "hexo-generator-sitemap": "0.0.6"
+  },
   "description": "My personal blog, made of pure grumpyness",
   "repository": {
     "type": "git",
