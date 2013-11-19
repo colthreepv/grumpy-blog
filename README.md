@@ -1,4 +1,4 @@
-grumpy-blog
+grumpy-blog [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrgamer/grumpy-blog/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ===========
 
 My personal blog, made of pure grumpyness.
