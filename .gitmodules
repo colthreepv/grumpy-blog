@@ -1,0 +1,3 @@
+[submodule "themes/twbootstrap"]
+	path = themes/twbootstrap
+	url = git@github.com:mrgamer/hexo-theme-twbootstrap.git

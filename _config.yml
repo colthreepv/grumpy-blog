@@ -73,7 +73,7 @@ disqus_shortname: col3me
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: persona-dark
+theme: twbootstrap
 exclude_generator:
 
 # Custom memoir options
