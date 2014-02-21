@@ -1,3 +1,3 @@
-[submodule "themes/twbootstrap"]
-	path = themes/twbootstrap
-	url = git@github.com:mrgamer/hexo-theme-twbootstrap.git
+[submodule "themes/hexo-theme-mrgamer"]
+	path = themes/hexo-theme-mrgamer
+	url = git@oldvps.col3.me:hexo-theme-mrgamer
