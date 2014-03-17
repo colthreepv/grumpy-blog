@@ -1,3 +1,6 @@
 [submodule "themes/hexo-theme-mrgamer"]
 	path = themes/hexo-theme-mrgamer
 	url = git@oldvps.col3.me:hexo-theme-mrgamer
+[submodule "themes/hexo-dark-custom"]
+	path = themes/hexo-dark-custom
+	url = git@github.com:mrgamer/hexo-dark-custom.git

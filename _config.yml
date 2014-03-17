@@ -6,13 +6,13 @@
 title: Grumpy Dev Blog
 subtitle: a developer that went full grumpyness
 description:
-author: mrgamer
+author: Valerio Coltre
 email: mister.gamer@gmail.com
 language: English
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.col3.me
+url: http://mrgamer.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -73,7 +73,7 @@ disqus_shortname: col3me
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: hexo-theme-mrgamer
+theme: hexo-dark-custom
 exclude_generator:
 
 # Plugins
